@@ -1,0 +1,10 @@
+# Normalize to LF in the repo; let Git handle working-copy endings.
+* text=auto
+
+# Shell scripts must stay LF or they break when run on Linux/macOS.
+*.sh text eol=lf
+
+# Terraform and docs
+*.tf   text eol=lf
+*.tfvars text eol=lf
+*.md   text

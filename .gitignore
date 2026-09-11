@@ -1,0 +1,22 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Secrets / env
+.env
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Backstage planning notes - keep out of the public repo.
+# Canonical copy lives in C:\Scripts\channel-planning\
+channel-plan.md
+*-plan.md
+notes/
